@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    background: lightgray;
+}
+
+header {
+    background: white;
+    padding: 10px;
+    }
+
+header h1 {
+    margin: 0px;
+    flex-basis: 800px;
+    background: white;
+    }
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 600px; 
+    margin: auto;
+    flex-wrap: wrap;
+}
+    .container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 600px; 
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.post{
+    background:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+.post h2 {
+    margin: 0px;
+    padding: 10px;
+}
+
+.post img {
+ width: 100%;
+}
+
+.post .heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.post .title {
+    display: flex;
+}
+
+.post .date {
+    display: flex;
+    color: gray;
+    align-items: center;
+}
+
+.post .description {
+    margin: 20px;
+}
